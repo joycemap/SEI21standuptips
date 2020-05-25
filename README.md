@@ -378,3 +378,11 @@ Tips Mar 4, 2020:
 * Keep committing to Github even after the course. Make those squares turn green. It feels great!
 * Persevere and do your best!
 * Get better rest and quality sleep.
+
+How to add existing project into new github repo
+1) In local folder's CLI, enter git init
+2) In CLI, git add
+3) In CLI, git commit
+4) Proceed to git hub to create repo without initializing
+5) Follow instructions on git hub's create repo page. In CLI, "git remote add origin....."
+6) Follow instructions to "git push -u origin master"
