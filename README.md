@@ -386,3 +386,17 @@ How to add existing project into new github repo
 4) Proceed to git hub to create repo without initializing
 5) Follow instructions on git hub's create repo page. In CLI, "git remote add origin....."
 6) Follow instructions to "git push -u origin master"
+To specify git accounts: https://linuxize.com/post/how-to-configure-git-username-and-email/
+Set a Git username and email address:
+
+git config user.name "Your Name"
+git config user.email "youremail@yourdomain.com"
+
+Verify that the changes were made correctly:
+
+git config --list
+
+user.name=Your Name
+user.email=youremail@yourdomain.com
+
+In MacOS - please remove the credentials in keychain access. Otherwise, a 403 error may result when pushing. 
