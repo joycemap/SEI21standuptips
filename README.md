@@ -400,3 +400,6 @@ user.name=Your Name
 user.email=youremail@yourdomain.com
 
 In MacOS - please remove the credentials in keychain access. Otherwise, a 403 error may result when pushing. 
+
+RegEx - https://regexr.com/
+For changing data in arrays, useful for big data sets. (Ask @FlashRob for clarification) 
