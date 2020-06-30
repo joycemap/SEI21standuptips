@@ -403,3 +403,14 @@ In MacOS - please remove the credentials in keychain access. Otherwise, a 403 er
 
 RegEx - https://regexr.com/
 For changing data in arrays, useful for big data sets. (Ask @FlashRob for clarification) 
+
+Git Steps:
+1) Git checkout -b <branchname> [create branch]
+2) Git add .
+3) Git commit
+4) Git checkout master [change to master branch]
+5) Git pull origin master [get latest codes in remote master and update to local master]
+6) Git checkout <branchname> [go back to branch]
+7) Git merge master [merge local master to your branch and resolve any conflicts]
+8) Git push origin <branchname> [push branch to github]
+9) Make pull request in GitHub
